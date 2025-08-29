@@ -1,0 +1,13 @@
+Collecting onnxslim
+  Downloading onnxslim-0.1.65-py3-none-any.whl (164 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 164.1/164.1 KB 158.3 kB/s eta 0:00:00
+Collecting colorama
+  Using cached colorama-0.4.6-py2.py3-none-any.whl (25 kB)
+Requirement already satisfied: onnx in ./venv/lib/python3.10/site-packages (from onnxslim) (1.17.0)
+Requirement already satisfied: sympy>=1.13.3 in ./venv/lib/python3.10/site-packages (from onnxslim) (1.14.0)
+Requirement already satisfied: packaging in ./venv/lib/python3.10/site-packages (from onnxslim) (25.0)
+Requirement already satisfied: mpmath<1.4,>=1.1.0 in ./venv/lib/python3.10/site-packages (from sympy>=1.13.3->onnxslim) (1.3.0)
+Requirement already satisfied: protobuf>=3.20.2 in ./venv/lib/python3.10/site-packages (from onnx->onnxslim) (6.32.0)
+Requirement already satisfied: numpy>=1.20 in ./venv/lib/python3.10/site-packages (from onnx->onnxslim) (2.2.6)
+Installing collected packages: colorama, onnxslim
+Successfully installed colorama-0.4.6 onnxslim-0.1.65
